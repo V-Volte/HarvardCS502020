@@ -1,8 +1,7 @@
+//Don't have access to cs50.h, and I didn't wanna use math.h just because, so stdio.h will have to do
 #include <stdio.h>
-#include <conio.h>
 
 //Prototyping functions
-
 int length(long long number);
 long long power(long long num, int pow);
 int cardType(long long num);
@@ -12,14 +11,12 @@ int addDigits(int num);
 int testValue(long long num);
 
 //main
-
 int main() {
 
   printf("Enter a number: ");
   long long num;
   scanf("%lli", & num); //Gets credit card number
   testValue(num); //tests validity of credit card number
-  getch(); //gets character before exiting
 
 }
 
