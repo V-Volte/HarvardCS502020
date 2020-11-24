@@ -1,3 +1,5 @@
+// Is a bit long because I tried to do this without using <math.h> and I had no access to <cs50.h>
+
 #include <stdio.h>
 
 #include <conio.h>
